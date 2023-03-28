@@ -6,12 +6,12 @@ on:
       - 'master'
       
 env:
-  IMAGE_REPOSITORY_NAME: weatherReactApp
+  IMAGE_REPOSITORY_NAME: reactweatherapp
   IMAGE_TAG: 1.0.0
 
 jobs:
   build:
-    name: Build weatherReactApp container image
+    name: Build reactweatherapp container image
     runs-on: ubuntu-latest
     
     steps:
