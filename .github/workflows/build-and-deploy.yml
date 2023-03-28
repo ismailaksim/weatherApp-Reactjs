@@ -3,7 +3,7 @@ name: Build and push the image
 on:
   push:
     branches:
-      - 'main'
+      - 'master'
       
 env:
   IMAGE_REPOSITORY_NAME: weatherReactApp
